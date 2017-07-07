@@ -1,0 +1,41 @@
+//  NewStarPrefix.pch
+//  Created by newMobileStar
+
+#ifndef NewStarPrefix_pch
+#define NewStarPrefix_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+// Library
+
+#import "Config.h"
+#import "ActivityIndicator.h"
+#import "JSON.h"
+#import "UIImageView+AFNetworking.h"
+#import "UIButton+AFNetworking.h"
+#import "DoAlertView.h"
+#import "UIViewController+JASidePanel.h"
+#import "VSDropdown.h"
+#import "PayPalMobile.h"
+#import "AppController.h"
+#import "CommonUtils.h"
+#import "RateView.h"
+#define appController [AppController sharedInstance]
+#define commonUtils [CommonUtils shared]
+
+
+// User Pages
+#import "UserBaseViewController.h"
+#import "BaseViewController.h"
+
+// Main Pages
+
+#import "MySidePanelController.h"
+#import "LeftPanelViewController.h"
+#import "homeViewController.h"
+
+
+#endif
